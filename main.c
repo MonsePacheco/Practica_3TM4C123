@@ -5,13 +5,13 @@ int main(void)
     uint16_t valor = 0;
     char c='5';
     //char b='a';
-    Configurar_PLL(_20MHZ);  //Confiuracion de velocidad de reloj
-    Configurar_UART0();//Yo FCLK 20MHZ Baudrate 9600
+    Configurar_PLL(_50MHZ);  //Confiuracion de velocidad de reloj
+    Configurar_UART7();//Yo FCLK 20MHZ Baudrate 9600
 
     //Experimento 1
     //  Configurar_UART1(); //Jorge,Alberto,Navarro,Saul,Fabela -fclk 25MHZ Baud-rate 57600
     //  Configurar_UART7(); //Angel,Fernanda,Sonia,Aleidis,Monse -fclk 50MHZ Baud-rate 57600
-    //  Configurar_UART4(); //Argelia,Roxana,Yesica,Vanesa,Christian,Abiu -fclk 10MHZ Baud-rate 4800
+    //  Configurar_UART4(); //Argeli+++++++++++++++++++++++++++++++++++++++++++++++-fclk 10MHZ Baud-rate 4800
     //  Configurar_UART2(); //Brizet,Monse,Luis,Majo,Alonso -fclk 40MHZ Baud-rate 115200
     //  Configurar_UART3(); //Jesus,Yesica,Carlos,Dulce,Rodolfo,Leonardo -fclk 80MHZ Baud-rate 19200
     //  Configurar_UART2(); //Andrea,Avila,Pamela,Paulina -fclk 50MHZ Baud-rate 57600
@@ -55,4 +55,25 @@ int main(void)
                  break;
          }
     }
+
+// EXPERIMENTO 2, NOMBRE
+//El envio es su nombre  (rave) invertirlo y regresarlo con numeros consecutivos entre letras (e1v2a3r)
+
+printString("\n");
+
+
+while (/* condition */)
+{
+    /* code */
+
+
+
+    
+}
+
+
+
+
+
+
 }
