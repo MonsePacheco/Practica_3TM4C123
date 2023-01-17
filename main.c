@@ -58,16 +58,6 @@ int main(void)
 
 // EXPERIMENTO 2, NOMBRE
 //El envio es su nombre  (rave) invertirlo y regresarlo con numeros consecutivos entre letras (e1v2a3r)
-
-printString("\n");
-
-
-while (/* condition */)
-{
-    /* code */
-
-
-
     
 }
 
@@ -76,4 +66,3 @@ while (/* condition */)
 
 
 
-}
